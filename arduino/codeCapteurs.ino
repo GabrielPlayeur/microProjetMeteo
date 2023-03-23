@@ -13,7 +13,7 @@ void setup() {
   pinMode(sensor_pluie, INPUT);
   pinMode(sensor_humi, INPUT);
   pinMode(sensor_pres, INPUT);
-  serial.begin(9600);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -23,6 +23,7 @@ void loop() {
   float pluie = cap_pluie();
   float humi = cap_humi();
   float pres = cap_pres();
+  envoie();
   delay(3600000)
 }
 
@@ -61,3 +62,8 @@ float cap_pres(){
   float enso = bit_pres*volt/bit*sensiCapt;
   return pres;
 }
+
+void envoie() {
+  Serial.println("%f#%f#%f#%f#%f#%f", temp, enso, vent, pluie, humi, pres);
+}
+
