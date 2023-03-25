@@ -1,9 +1,8 @@
-import fastifyView from "@fastify/view";
-import fastify from "fastify";
+import fastifyView from "@fastify/view"
+import fastify from "fastify"
 import ejs from "ejs"
-import { showData } from "./action/showData.js";
-import { getData } from "./action/getData.js";
-import { postData } from "./action/updateDB.js";
+import { showData } from "./action/showData.js"
+import { postData } from "./action/updateDB.js"
 
 const app = fastify()
 
@@ -31,7 +30,6 @@ app.addContentTypeParser(
   );
 
 app.get('/', showData)
-app.get('/getData', getData)
 app.post('/postData', postData)
 
 const start = async () => {

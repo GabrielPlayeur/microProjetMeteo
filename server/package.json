@@ -32,8 +32,10 @@
     "fastq": "^1.15.0",
     "find-my-way": "^7.6.0",
     "forwarded": "^0.2.0",
+    "https": "^1.0.0",
     "ieee754": "^1.2.1",
     "ipaddr.js": "^1.9.1",
+    "jsdom": "^21.1.1",
     "json-schema-traverse": "^1.0.0",
     "light-my-request": "^5.9.1",
     "lru-cache": "^6.0.0",
@@ -66,7 +68,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "dev": "node --watch src/server.js",
+    "dev": "node --watch --trace-warnings src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
