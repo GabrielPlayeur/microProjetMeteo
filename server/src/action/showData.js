@@ -10,26 +10,43 @@ const getHtmlPromise = util.promisify(getHtml)
 export const showData = async (req, res) => {
     try {
         const forecast = await getWeatherForecast(res)
-        const data = db.prepare('SELECT * FROM datameteo').all()
+        const data = db.prepare('SELECT name,date,temperature,pression,pluie,vent,luminosite,humidite FROM datameteo INNER JOIN stationmeteo on stationmeteo.id = datameteo.station_id').all()
+        let dataFormat = formatDataMeteo(data)
+        let forecastFormat = formatDataForecast(forecast)
         return res.view("./template/index.ejs", {
-                forecast:forecast.toString(),
-                data:JSON.stringify(data).toString()
+                meteo:dataFormat,
+                previsions:forecastFormat
             })
     } catch (error) {
         console.error(error)
         res.status(500).send('Erreur lors de la récupération des données')
     }
-  }
+}
 
- async function getWeatherForecast(res) {
+function formatDataMeteo(data) {
+    for (let j = 0; j < data.length; j++) {
+        let tab = data[j]['date'].split(' ')
+        data[j].date = tab[0]
+        data[j].heure = tab[1]
+    }
+    return data
+}
+
+function formatDataForecast(forecast) {
+    for (let i = 0; i < forecast.length; i++) {
+        forecast[i]['Temp.']= forecast[i]['Temp.'].replace('�','°')
+    }
+    return forecast
+}
+
+async function getWeatherForecast(res) {
     try {
         // Récupérer les données de la page HTML
         const body = await getHtmlPromise()
         let tableKeys = ['Jour','Heure','Temp.','Temp.ressen.','dir.','moy.','raf.','Pluiesur 3h','Humidité','Pression','Temps']
         let table = getTable(body, tableKeys)
-        let affichage = JSON.stringify(table)
 
-        return affichage
+        return table
     } catch (error) {
         console.error(error)
         res.status(500).send('Erreur lors de la récupération des données')
