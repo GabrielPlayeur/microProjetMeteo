@@ -10,7 +10,7 @@ const getHtmlPromise = util.promisify(getHtml)
 export const showData = async (req, res) => {
     try {
         const forecast = await getWeatherForecast(res)
-        const data = db.prepare('SELECT name,date,temperature,pression,pluie,vent,luminosite,humidite FROM datameteo INNER JOIN stationmeteo on stationmeteo.id = datameteo.station_id').all()
+        const data = db.prepare('SELECT name,date,temperature,pression,pluie,vent,luminosite,humidite FROM datameteo INNER JOIN stationmeteo on stationmeteo.id = datameteo.station_id ORDER BY datameteo.id DESC LIMIT 24').all()
         let dataFormat = formatDataMeteo(data)
         let forecastFormat = formatDataForecast(forecast)
         return res.view("./template/index.ejs", {

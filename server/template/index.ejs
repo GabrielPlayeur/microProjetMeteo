@@ -30,60 +30,88 @@
     tr:first-child{
         background-color: #af8e8e;
     }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .table {
+        box-sizing: border-box;
+        padding: 20px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .table:nth-child(1) {
+        margin-right: 10px;
+    }
+    .table:nth-child(2) {
+        border-left: 2px solid #ccc;
+    }
+    .table tr {
+        height: 40px;
+    }
+    .left{
+        width: 50%;
+    }
     </style>
 </head>
 <body>
-    <h1>Météo</h1>
-    <table>
-        <tr>
-        <th>Nom Station</th>
-        <th>Jour</th>
-        <th>Heure</th>
-        <th>Temp.</th>
-        <th>Vent</th>
-        <th>Pluie</th>
-        <th>Humidité</th>
-        <th>Pression</th>
-        <th>Luminosité</th>
-        </tr>
-        <% for (let i = 0; i < meteo.length; i++) { %>
-        <tr>
-            <td><%= meteo[i].name %></td>
-            <td><%= meteo[i].date %></td>
-            <td><%= meteo[i].heure %></td>
-            <td><%= meteo[i].temperature %></td>
-            <td><%= meteo[i].vent %></td>
-            <td><%= meteo[i].pluie %></td>
-            <td><%= meteo[i].humidite %></td>
-            <td><%= meteo[i].pression %></td>
-            <td><%= meteo[i].luminosite %></td>
-        </tr>
-        <% } %>
-    </table>
-    <h2>Prévisions pour les 3 prochains jours</h2>
-    <table>
-        <tr>
-        <th>Jour</th>
-        <th>Heure</th>
-        <th>Temp.</th>
-        <th>moy.</th>
-        <th>raf.</th>
-        <th>Pluie</th>
-        <th>Humidité</th>
-        <th>Pression</th>
-        </tr>
-        <% for (let j = 0; j < previsions.length; j++) { %>
-        <tr>
-            <td><%= previsions[j].Jour %></td>
-            <td><%= previsions[j].Heure %></td>
-            <td><%= previsions[j]['Temp.'] %></td>
-            <td><%= previsions[j]['moy.'] %></td>
-            <td><%= previsions[j]['raf.'] %></td>
-            <td><%= previsions[j]['Pluiesur 3h'] %></td>
-            <td><%= previsions[j].Humidité %></td>
-            <td><%= previsions[j].Pression %></td>
-        </tr>
-        <% } %>
-    </table>
+    <div class="container">
+        <div class="left">
+            <h1>Météo</h1>
+            <table class="table">
+                <tr>
+                <th>Nom Station</th>
+                <th>Jour</th>
+                <th>Heure</th>
+                <th>Temp.</th>
+                <th>Vent</th>
+                <th>Pluie</th>
+                <th>Humidité</th>
+                <th>Pression</th>
+                <th>Luminosité</th>
+                </tr>
+                <% for (let i = 0; i < meteo.length; i++) { %>
+                <tr>
+                    <td><%= meteo[i].name %></td>
+                    <td><%= meteo[i].date %></td>
+                    <td><%= meteo[i].heure %></td>
+                    <td><%= meteo[i].temperature %></td>
+                    <td><%= meteo[i].vent %></td>
+                    <td><%= meteo[i].pluie %></td>
+                    <td><%= meteo[i].humidite %></td>
+                    <td><%= meteo[i].pression %></td>
+                    <td><%= meteo[i].luminosite %></td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+        <div class="right">
+            <h2>Prévisions pour les 3 prochains jours</h2>
+            <table class="table">
+                <tr>
+                <th>Jour</th>
+                <th>Heure</th>
+                <th>Temp.</th>
+                <th>moy.</th>
+                <th>raf.</th>
+                <th>Pluie</th>
+                <th>Humidité</th>
+                <th>Pression</th>
+                </tr>
+                <% for (let j = 0; j < previsions.length; j++) { %>
+                <tr>
+                    <td><%= previsions[j].Jour %></td>
+                    <td><%= previsions[j].Heure %></td>
+                    <td><%= previsions[j]['Temp.'] %></td>
+                    <td><%= previsions[j]['moy.'] %></td>
+                    <td><%= previsions[j]['raf.'] %></td>
+                    <td><%= previsions[j]['Pluiesur 3h'] %></td>
+                    <td><%= previsions[j].Humidité %></td>
+                    <td><%= previsions[j].Pression %></td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
