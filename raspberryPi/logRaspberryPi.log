@@ -1,0 +1,4 @@
+2023-03-28 19:02:55,100 : INFO : Data received
+2023-03-28 19:02:55,100 : INFO : Data formatted
+2023-03-28 19:02:55,100 : INFO : Try to post data at http://localhost:3000/postData
+2023-03-28 19:02:55,123 : INFO : 200 data save

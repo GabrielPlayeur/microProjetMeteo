@@ -16,7 +16,7 @@ export const postData = (req, res) => {
 
     saveNewData(stationID['id'], data)
 
-    return "data save"
+    return "data saved"
 }
 
 const checkRequestBody = (body) => {
