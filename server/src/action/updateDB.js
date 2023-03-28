@@ -1,6 +1,6 @@
 import {db} from "../database.js"
 
-const BODYKEYS = ['token', 'temperature', 'temperature', 'pression', 'pluie', 'vent', 'luminosite', 'humidite']
+const BODYKEYS = ['token', 'temperature', 'pression', 'pluie', 'vent', 'luminosite', 'humidite']
 
 export const postData = (req, res) => {
     const data = req.body["parsed"]
