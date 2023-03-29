@@ -9,6 +9,7 @@ Weather myHumidity;//Create an instance of the humidity sensor
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const byte STAT_BLUE = 7;
 const byte STAT_GREEN = 8;
+const byte RAIN = 2;
 
 const byte REFERENCE_3V3 = A3;
 const byte LIGHT = A1;
