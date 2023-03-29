@@ -1,4 +1,3 @@
-
 #include <Wire.h> 
 #include "SparkFunMPL3115A2.h" 
 #include "SparkFun_Si7021_Breakout_Library.h" 
@@ -43,11 +42,9 @@ void setup()
 {
   Serial.begin(9600);
 
-  //pinMode(STAT_BLUE, OUTPUT); //Status LED Blue
-  //pinMode(STAT_GREEN, OUTPUT); //Status LED Green
-
   pinMode(REFERENCE_3V3, INPUT);
   pinMode(LIGHT, INPUT);
+  pinMode(RAIN, INPUT_PULLUP); // input from wind meters rain gauge sensor
 
   //Configure the pressure sensor
   myPressure.begin(); // Get sensor online
@@ -118,7 +115,7 @@ float get_light(){
   
 }
 String get_moyenne(){
-  float res_temp, res_press, res_hum, res_light;
+  float res_temp, res_press, res_hum, res_light, res_pluie;
   float min_temp=10000000 , min_press=10000000 , min_hum=10000000 , min_light=10000000 ;
   float max_temp, max_press, max_hum, max_light;
   float cur_temp, cur_press, cur_hum, cur_light;
