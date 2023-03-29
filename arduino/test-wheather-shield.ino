@@ -15,12 +15,30 @@ const byte REFERENCE_3V3 = A3;
 const byte LIGHT = A1;
 const byte BATT = A2;
 
+// volatiles are subject to modification by IRQs
+volatile float rainHour; //60 floating numbers to keep track of 60 minutes of rain
+volatile unsigned long raintime, rainlast, raininterval, rain;
+
 //Global Variables
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 long lastSecond; //The millis counter to see when a second rolls by
 int DELAY_MOYENNE= 2000; // ms
 int NB_MOYENNE = 3;
 String TOKEN = "token";
+
+void rainIRQ()
+{
+    raintime = millis(); // grab current time
+    raininterval = raintime - rainlast; // calculate interval between this and last event
+
+    if (raininterval > 10) // ignore switch-bounce glitches less than 10mS after initial edge
+    {
+        rainHour += 0.2794; //Increase this minute's amount of rain
+
+        rainlast = raintime; // set up for next event
+    }
+}
+
 void setup()
 {
   Serial.begin(9600);
@@ -37,12 +55,12 @@ void setup()
   myPressure.setOversampleRate(7); // Set Oversample to the recommended 128
   myPressure.enableEventFlags(); // Enable all three pressure and temp event flags
 
+  attachInterrupt(0, rainIRQ, FALLING);
+
   //Configure the humidity sensor
   myHumidity.begin();
 
   lastSecond = millis();
-
-
 }
 
 void loop()
@@ -53,15 +71,15 @@ void loop()
 
     lastSecond += 1000;
     String phrase = get_moyenne();
-    
-    Serial.println(phrase);
 
-   
+    for(int i = 0 ; i < 5 ; i++)
+      Serial.println(phrase);
+
+    rainHour=0;
   }
 
   delay(1000);
 }
-
 
 float get_light_level()
 {
@@ -75,20 +93,22 @@ float get_light_level()
 
   return (lightSensor);
 }
-
+float get_pluie() {
+  return rainHour;
+}
 float get_humidity(){
   float humidity = myHumidity.getRH();
   return humidity;
   
 }
 float get_temp(){
-   float temp_h = myHumidity.getTempF();
-    temp_h = (temp_h-32)*0.5556;
+  float temp_h = myHumidity.getTempF();
+  temp_h = (temp_h-32)*0.5556;
   return temp_h;
   
 }
 float get_pressure(){
- float pressure = myPressure.readPressure();
+  float pressure = myPressure.readPressure();
   return pressure;
   
 }
@@ -110,7 +130,7 @@ String get_moyenne(){
     cur_press = get_pressure();
     min_press = min(min_press,cur_press);
     max_press = max(max_press, cur_press);
-    
+
     cur_hum = get_humidity();
     min_hum = min(min_hum,cur_hum);
     max_hum = max(max_hum, cur_hum);
@@ -120,13 +140,13 @@ String get_moyenne(){
     max_light = max(max_light, cur_light);
 
     delay(DELAY_MOYENNE);
-    
   }
   res_temp= moyenne(min_temp,max_temp);
   res_press= moyenne(min_press,max_press);
   res_hum= moyenne(min_hum,max_hum);
   res_light= moyenne(min_light,max_light);
-  String phrase = "{'token':'"+TOKEN+"','temperature':"+res_temp+",'pression':"+res_press+",'humidite':"+res_hum+",'luminosite':"+res_light+"}" ;
+  res_pluie=get_pluie();
+  String phrase = "{'token':'"+TOKEN+"','temperature':"+res_temp+",'pression':"+res_press+",'humidite':"+res_hum+",'luminosite':"+res_light+",'pluie':"+res_pluie+"}" ;
   return phrase;
 }
 float moyenne(float mini,float maxi){

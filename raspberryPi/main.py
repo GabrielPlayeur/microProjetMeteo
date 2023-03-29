@@ -10,11 +10,20 @@ def getSerialData(ser: Serial) -> str:
         if ser.in_waiting > 0:
             data = ser.readline().decode('utf-8').rstrip()
             logging.info("Data received")
-            return str(data).replace("'", '"')
+            if data[0] == '{' and data[-1] == '}':
+                return str(data).replace("'", '"')
 
 def formatReceivedData(rawData: str) -> dict:
+    logging.info("Start Format Data")
     data = loads(rawData)
-    logging.info("Data formatted")
+    try:
+        data['humidite'] = round(data['humidite'])
+        data['pression'] = round(data['pression']/10,1)
+        data['temperature'] = round(data['temperature'],1)
+        data['luminosite'] = round(data['luminosite'],2)
+        logging.info("Data formatted")
+    except Exception as err:
+        logging.error(err)
     return data
 
 def postData(url: str, data: dict) -> None:
