@@ -3,6 +3,7 @@ import fastify from "fastify"
 import ejs from "ejs"
 import { showData } from "./action/showData.js"
 import { postData } from "./action/updateDB.js"
+import { getData } from "./action/getData.js"
 
 const app = fastify()
 
@@ -31,6 +32,7 @@ app.addContentTypeParser(
 
 app.get('/', showData)
 app.post('/postData', postData)
+app.get('/getData', getData)
 
 const start = async () => {
     try {

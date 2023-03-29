@@ -41,4 +41,6 @@ if __name__ == "__main__":
     rawData = getSerialData(ser)
     DATA = formatReceivedData(rawData)
 
-    postData(URL, DATA)
+    print(DATA)
+
+    # postData(URL, DATA)
