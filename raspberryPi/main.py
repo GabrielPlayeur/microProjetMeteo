@@ -36,7 +36,7 @@ def postData(url: str, data: dict) -> None:
         logging.error(err)
 
 # Server URL
-URL = "http://localhost:3000/postData"
+URL = "http://aissd.d011.fr:3000/postData"
 
 # Arduino Connect Option
 deviceName="/dev/ttyACM0"
@@ -55,6 +55,7 @@ def app(dev=False):
     rawData = getSerialData(ser)
     DATA = formatReceivedData(rawData)
 
+<<<<<<< HEAD
     if dev:
         print(DATA)
         return
@@ -64,3 +65,6 @@ def app(dev=False):
 
 if __name__ == "__main__":
     app(dev=False)
+=======
+    postData(URL, DATA)
+>>>>>>> server
