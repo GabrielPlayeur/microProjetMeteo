@@ -107,6 +107,7 @@ float get_light_level()
   operatingVoltage = 3.3 / operatingVoltage;
 
   lightSensor = operatingVoltage * lightSensor;
+  lightSensor = (10000/9) * lightSensor; 
 
   return (lightSensor);
 }
@@ -140,7 +141,7 @@ float get_temp(){
 }
 float get_pressure(){
   float pressure = myPressure.readPressure();
-  return pressure;
+  return pressure/100;
   
 }
 float get_light(){
