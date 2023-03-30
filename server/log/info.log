@@ -1,0 +1,9 @@
+{"level":30,"time":1680179288280,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","msg":"Server listening at http://[::1]:3000"}
+{"level":30,"time":1680179288282,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1680179288393,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"::1","remotePort":65251},"msg":"incoming request"}
+{"level":30,"time":1680179288394,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680179288804,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680179288825,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-1","res":{"statusCode":200},"responseTime":431.7134000007063,"msg":"request completed"}
+{"level":30,"time":1680179288870,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","hostname":"localhost:3000","remoteAddress":"::1","remotePort":65251},"msg":"incoming request"}
+{"level":30,"time":1680179288870,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680179288871,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-2","res":{"statusCode":404},"responseTime":0.5625999998301268,"msg":"request completed"}

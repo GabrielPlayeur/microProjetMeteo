@@ -18,7 +18,7 @@ def formatReceivedData(rawData: str) -> dict:
     data = loads(rawData)
     try:
         data['humidite'] = round(data['humidite'])
-        data['pression'] = round(data['pression']/10,1)
+        data['pression'] = round(data['pression']/100,1)
         data['temperature'] = round(data['temperature'],1)
         data['luminosite'] = round(data['luminosite'],2)
         logging.info("Data formatted")
@@ -35,7 +35,7 @@ def postData(url: str, data: dict) -> None:
         logging.error(err)
 
 # Server URL
-URL = "http://localhost:3000/postData"
+URL = "http://aissd.d011.fr:3000/postData"
 
 # Arduino Connect Option
 deviceName="/dev/ttyACM0"
@@ -50,6 +50,4 @@ if __name__ == "__main__":
     rawData = getSerialData(ser)
     DATA = formatReceivedData(rawData)
 
-    print(DATA)
-
-    # postData(URL, DATA)
+    postData(URL, DATA)
