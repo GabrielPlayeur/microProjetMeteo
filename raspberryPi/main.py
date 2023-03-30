@@ -18,9 +18,10 @@ def formatReceivedData(rawData: str) -> dict:
     data = loads(rawData)
     try:
         data['humidite'] = round(data['humidite'])
-        data['pression'] = round(data['pression']/10,1)
+        data['pression'] = round(data['pression'],1)
         data['temperature'] = round(data['temperature'],1)
-        data['luminosite'] = round(data['luminosite'],2)
+        data['luminosite'] = round(data['luminosite'])
+        data['vent'] = round(data['vent'],1)
         logging.info("Data formatted")
     except Exception as err:
         logging.error(err)
@@ -42,14 +43,24 @@ deviceName="/dev/ttyACM0"
 baudRate=9600
 timeout=1
 
-if __name__ == "__main__":
+def app(dev=False):
     logging.basicConfig(filename="logRaspberryPi.log", level=logging.INFO, format='%(asctime)s : %(levelname)s : %(message)s')
 
-    ser = Serial(deviceName, baudRate, timeout=timeout)
+    try:
+        ser = Serial(deviceName, baudRate, timeout=timeout)
+    except Exception as err:
+        logging.error(err)
+        return
 
     rawData = getSerialData(ser)
     DATA = formatReceivedData(rawData)
 
-    print(DATA)
+    if dev:
+        print(DATA)
+        return
 
-    # postData(URL, DATA)
+    postData(URL, DATA)
+    return
+
+if __name__ == "__main__":
+    app(dev=False)
