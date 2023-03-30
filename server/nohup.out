@@ -1,0 +1,60 @@
+
+> server@1.0.0 start
+> node src/server.js
+
+
+> server@1.0.0 start
+> node src/server.js
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at doListen (node:net:1937:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+/home/gabriel/microProjetMeteo/server/node_modules/sonic-boom/index.js:359
+    throw new Error('sonic boom is not ready yet')
+          ^
+
+Error: sonic boom is not ready yet
+    at SonicBoom.flushSync (/home/gabriel/microProjetMeteo/server/node_modules/sonic-boom/index.js:359:11)
+    at autoEnd (/home/gabriel/microProjetMeteo/server/node_modules/pino/lib/tools.js:281:12)
+    at callRefs (/home/gabriel/microProjetMeteo/server/node_modules/on-exit-leak-free/index.js:45:7)
+    at process.onExit (/home/gabriel/microProjetMeteo/server/node_modules/on-exit-leak-free/index.js:29:3)
+    at process.emit (node:events:513:28)
+    at process.exit (node:internal/process/per_thread:192:15)
+    at start (file:///home/gabriel/microProjetMeteo/server/src/server.js:48:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.15.0
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at doListen (node:net:1937:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+/home/gabriel/microProjetMeteo/server/node_modules/sonic-boom/index.js:359
+    throw new Error('sonic boom is not ready yet')
+          ^
+
+Error: sonic boom is not ready yet
+    at SonicBoom.flushSync (/home/gabriel/microProjetMeteo/server/node_modules/sonic-boom/index.js:359:11)
+    at autoEnd (/home/gabriel/microProjetMeteo/server/node_modules/pino/lib/tools.js:281:12)
+    at callRefs (/home/gabriel/microProjetMeteo/server/node_modules/on-exit-leak-free/index.js:45:7)
+    at process.onExit (/home/gabriel/microProjetMeteo/server/node_modules/on-exit-leak-free/index.js:29:3)
+    at process.emit (node:events:513:28)
+    at process.exit (node:internal/process/per_thread:192:15)
+    at start (file:///home/gabriel/microProjetMeteo/server/src/server.js:48:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.15.0

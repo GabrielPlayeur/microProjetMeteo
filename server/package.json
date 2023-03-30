@@ -31,6 +31,7 @@
     "fastify": "^4.15.0",
     "fastq": "^1.15.0",
     "find-my-way": "^7.6.0",
+    "forever": "^4.0.3",
     "forwarded": "^0.2.0",
     "https": "^1.0.0",
     "ieee754": "^1.2.1",

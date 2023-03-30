@@ -7,3 +7,103 @@
 {"level":30,"time":1680179288870,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","hostname":"localhost:3000","remoteAddress":"::1","remotePort":65251},"msg":"incoming request"}
 {"level":30,"time":1680179288870,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
 {"level":30,"time":1680179288871,"pid":2236,"hostname":"LAPTOP-8MPNVDJU","reqId":"req-2","res":{"statusCode":404},"responseTime":0.5625999998301268,"msg":"request completed"}
+{"level":30,"time":1680179804555,"pid":595352,"hostname":"aissd","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":1680179808485,"pid":595352,"hostname":"aissd","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":65327},"msg":"incoming request"}
+{"level":30,"time":1680179808489,"pid":595352,"hostname":"aissd","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680179810064,"pid":595352,"hostname":"aissd","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680179810102,"pid":595352,"hostname":"aissd","reqId":"req-1","res":{"statusCode":200},"responseTime":1614.735384941101,"msg":"request completed"}
+{"level":30,"time":1680180005389,"pid":595352,"hostname":"aissd","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":65336},"msg":"incoming request"}
+{"level":30,"time":1680180005390,"pid":595352,"hostname":"aissd","reqId":"req-2","msg":"Try get all data"}
+{"level":30,"time":1680180006476,"pid":595352,"hostname":"aissd","reqId":"req-2","msg":"Data send"}
+{"level":30,"time":1680180006530,"pid":595352,"hostname":"aissd","reqId":"req-2","res":{"statusCode":200},"responseTime":1140.4686660766602,"msg":"request completed"}
+{"level":30,"time":1680180429483,"pid":595604,"hostname":"aissd","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":1680180433209,"pid":595604,"hostname":"aissd","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":65434},"msg":"incoming request"}
+{"level":30,"time":1680180433212,"pid":595604,"hostname":"aissd","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680180434801,"pid":595604,"hostname":"aissd","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680180434840,"pid":595604,"hostname":"aissd","reqId":"req-1","res":{"statusCode":200},"responseTime":1629.1338379383087,"msg":"request completed"}
+{"level":30,"time":1680180666269,"pid":595651,"hostname":"aissd","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":1680180681944,"pid":595651,"hostname":"aissd","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":65495},"msg":"incoming request"}
+{"level":30,"time":1680180681948,"pid":595651,"hostname":"aissd","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680180683580,"pid":595651,"hostname":"aissd","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680180683620,"pid":595651,"hostname":"aissd","reqId":"req-1","res":{"statusCode":200},"responseTime":1673.9619150161743,"msg":"request completed"}
+{"level":30,"time":1680180696734,"pid":595651,"hostname":"aissd","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":65495},"msg":"incoming request"}
+{"level":30,"time":1680180696734,"pid":595651,"hostname":"aissd","reqId":"req-2","msg":"Try get all data"}
+{"level":30,"time":1680180697825,"pid":595651,"hostname":"aissd","reqId":"req-2","msg":"Data send"}
+{"level":30,"time":1680180697873,"pid":595651,"hostname":"aissd","reqId":"req-2","res":{"statusCode":200},"responseTime":1138.6254019737244,"msg":"request completed"}
+{"level":30,"time":1680180746638,"pid":595651,"hostname":"aissd","reqId":"req-3","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":65495},"msg":"incoming request"}
+{"level":30,"time":1680180746639,"pid":595651,"hostname":"aissd","reqId":"req-3","msg":"Try get all data"}
+{"level":30,"time":1680180747536,"pid":595651,"hostname":"aissd","reqId":"req-3","msg":"Data send"}
+{"level":30,"time":1680180747548,"pid":595651,"hostname":"aissd","reqId":"req-3","res":{"statusCode":200},"responseTime":909.2082891464233,"msg":"request completed"}
+{"level":30,"time":1680180845259,"pid":595651,"hostname":"aissd","reqId":"req-4","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61452},"msg":"incoming request"}
+{"level":30,"time":1680180845259,"pid":595651,"hostname":"aissd","reqId":"req-4","msg":"Try get all data"}
+{"level":30,"time":1680180846049,"pid":595651,"hostname":"aissd","reqId":"req-4","msg":"Data send"}
+{"level":30,"time":1680180846079,"pid":595651,"hostname":"aissd","reqId":"req-4","res":{"statusCode":200},"responseTime":820.1899960041046,"msg":"request completed"}
+{"level":30,"time":1680180848553,"pid":595651,"hostname":"aissd","reqId":"req-5","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61452},"msg":"incoming request"}
+{"level":30,"time":1680180848553,"pid":595651,"hostname":"aissd","reqId":"req-5","msg":"Try get all data"}
+{"level":30,"time":1680180849265,"pid":595651,"hostname":"aissd","reqId":"req-5","msg":"Data send"}
+{"level":30,"time":1680180849273,"pid":595651,"hostname":"aissd","reqId":"req-5","res":{"statusCode":200},"responseTime":719.9339110851288,"msg":"request completed"}
+{"level":30,"time":1680180926857,"pid":595651,"hostname":"aissd","reqId":"req-6","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61499},"msg":"incoming request"}
+{"level":30,"time":1680180926858,"pid":595651,"hostname":"aissd","reqId":"req-6","msg":"Try get all data"}
+{"level":30,"time":1680180927964,"pid":595651,"hostname":"aissd","reqId":"req-6","msg":"Data send"}
+{"level":30,"time":1680180928004,"pid":595651,"hostname":"aissd","reqId":"req-6","res":{"statusCode":200},"responseTime":1145.837560892105,"msg":"request completed"}
+{"level":30,"time":1680180977168,"pid":595651,"hostname":"aissd","reqId":"req-7","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61499},"msg":"incoming request"}
+{"level":30,"time":1680180977168,"pid":595651,"hostname":"aissd","reqId":"req-7","msg":"Try get all data"}
+{"level":30,"time":1680180978109,"pid":595651,"hostname":"aissd","reqId":"req-7","msg":"Data send"}
+{"level":30,"time":1680180978124,"pid":595651,"hostname":"aissd","reqId":"req-7","res":{"statusCode":200},"responseTime":956.2338938713074,"msg":"request completed"}
+{"level":30,"time":1680181062529,"pid":595651,"hostname":"aissd","reqId":"req-8","req":{"method":"GET","url":"/ui/authentication","hostname":"163.172.46.88:3000","remoteAddress":"45.56.108.128","remotePort":58118},"msg":"incoming request"}
+{"level":30,"time":1680181062530,"pid":595651,"hostname":"aissd","reqId":"req-8","msg":"Route GET:/ui/authentication not found"}
+{"level":30,"time":1680181062533,"pid":595651,"hostname":"aissd","reqId":"req-8","res":{"statusCode":404},"responseTime":2.9051671028137207,"msg":"request completed"}
+{"level":30,"time":1680181186024,"pid":595651,"hostname":"aissd","reqId":"req-9","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61527},"msg":"incoming request"}
+{"level":30,"time":1680181186024,"pid":595651,"hostname":"aissd","reqId":"req-9","msg":"Try get all data"}
+{"level":30,"time":1680181186821,"pid":595651,"hostname":"aissd","reqId":"req-9","msg":"Data send"}
+{"level":30,"time":1680181186845,"pid":595651,"hostname":"aissd","reqId":"req-9","res":{"statusCode":200},"responseTime":819.8121399879456,"msg":"request completed"}
+{"level":30,"time":1680181293362,"pid":595651,"hostname":"aissd","reqId":"req-a","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61533},"msg":"incoming request"}
+{"level":30,"time":1680181293364,"pid":595651,"hostname":"aissd","reqId":"req-a","msg":"Try get all data"}
+{"level":30,"time":1680181294701,"pid":595651,"hostname":"aissd","reqId":"req-a","msg":"Data send"}
+{"level":30,"time":1680181294749,"pid":595651,"hostname":"aissd","reqId":"req-a","res":{"statusCode":200},"responseTime":1386.483227968216,"msg":"request completed"}
+{"level":30,"time":1680181296624,"pid":595651,"hostname":"aissd","reqId":"req-b","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61533},"msg":"incoming request"}
+{"level":30,"time":1680181296624,"pid":595651,"hostname":"aissd","reqId":"req-b","msg":"Try get all data"}
+{"level":30,"time":1680181297431,"pid":595651,"hostname":"aissd","reqId":"req-b","msg":"Data send"}
+{"level":30,"time":1680181297470,"pid":595651,"hostname":"aissd","reqId":"req-b","res":{"statusCode":200},"responseTime":845.6438119411469,"msg":"request completed"}
+{"level":30,"time":1680181302073,"pid":595651,"hostname":"aissd","reqId":"req-c","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61533},"msg":"incoming request"}
+{"level":30,"time":1680181302073,"pid":595651,"hostname":"aissd","reqId":"req-c","msg":"Try get all data"}
+{"level":30,"time":1680181302828,"pid":595651,"hostname":"aissd","reqId":"req-c","msg":"Data send"}
+{"level":30,"time":1680181302836,"pid":595651,"hostname":"aissd","reqId":"req-c","res":{"statusCode":200},"responseTime":763.3086340427399,"msg":"request completed"}
+{"level":30,"time":1680181682093,"pid":595955,"hostname":"aissd","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":1680181691216,"pid":595955,"hostname":"aissd","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61617},"msg":"incoming request"}
+{"level":30,"time":1680181691220,"pid":595955,"hostname":"aissd","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680181692815,"pid":595955,"hostname":"aissd","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680181692853,"pid":595955,"hostname":"aissd","reqId":"req-1","res":{"statusCode":200},"responseTime":1634.8563358783722,"msg":"request completed"}
+{"level":30,"time":1680182663418,"pid":595955,"hostname":"aissd","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61795},"msg":"incoming request"}
+{"level":30,"time":1680182663419,"pid":595955,"hostname":"aissd","reqId":"req-2","msg":"Try get all data"}
+{"level":30,"time":1680182664595,"pid":595955,"hostname":"aissd","reqId":"req-2","msg":"Data send"}
+{"level":30,"time":1680182664635,"pid":595955,"hostname":"aissd","reqId":"req-2","res":{"statusCode":200},"responseTime":1216.207566022873,"msg":"request completed"}
+{"level":30,"time":1680183471814,"pid":595955,"hostname":"aissd","reqId":"req-3","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61909},"msg":"incoming request"}
+{"level":30,"time":1680183471814,"pid":595955,"hostname":"aissd","reqId":"req-3","msg":"Try get all data"}
+{"level":30,"time":1680183472739,"pid":595955,"hostname":"aissd","reqId":"req-3","msg":"Data send"}
+{"level":30,"time":1680183472755,"pid":595955,"hostname":"aissd","reqId":"req-3","res":{"statusCode":200},"responseTime":940.5695958137512,"msg":"request completed"}
+{"level":30,"time":1680183488514,"pid":595955,"hostname":"aissd","reqId":"req-4","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61909},"msg":"incoming request"}
+{"level":30,"time":1680183488514,"pid":595955,"hostname":"aissd","reqId":"req-4","msg":"Try get all data"}
+{"level":30,"time":1680183489494,"pid":595955,"hostname":"aissd","reqId":"req-4","msg":"Data send"}
+{"level":30,"time":1680183489504,"pid":595955,"hostname":"aissd","reqId":"req-4","res":{"statusCode":200},"responseTime":990.135360956192,"msg":"request completed"}
+{"level":30,"time":1680183575224,"pid":597098,"hostname":"aissd","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":1680183582520,"pid":597098,"hostname":"aissd","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61927},"msg":"incoming request"}
+{"level":30,"time":1680183582523,"pid":597098,"hostname":"aissd","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680183584147,"pid":597098,"hostname":"aissd","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680183584185,"pid":597098,"hostname":"aissd","reqId":"req-1","res":{"statusCode":200},"responseTime":1663.5247201919556,"msg":"request completed"}
+{"level":30,"time":1680183629409,"pid":597098,"hostname":"aissd","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61927},"msg":"incoming request"}
+{"level":30,"time":1680183629409,"pid":597098,"hostname":"aissd","reqId":"req-2","msg":"Try get all data"}
+{"level":30,"time":1680183630519,"pid":597098,"hostname":"aissd","reqId":"req-2","msg":"Data send"}
+{"level":30,"time":1680183630538,"pid":597098,"hostname":"aissd","reqId":"req-2","res":{"statusCode":200},"responseTime":1128.959270954132,"msg":"request completed"}
+{"level":30,"time":1680183702227,"pid":597098,"hostname":"aissd","reqId":"req-3","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61927},"msg":"incoming request"}
+{"level":30,"time":1680183702227,"pid":597098,"hostname":"aissd","reqId":"req-3","msg":"Try get all data"}
+{"level":30,"time":1680183703116,"pid":597098,"hostname":"aissd","reqId":"req-3","msg":"Data send"}
+{"level":30,"time":1680183703126,"pid":597098,"hostname":"aissd","reqId":"req-3","res":{"statusCode":200},"responseTime":899.2319378852844,"msg":"request completed"}
+{"level":30,"time":1680183704512,"pid":597098,"hostname":"aissd","reqId":"req-4","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61927},"msg":"incoming request"}
+{"level":30,"time":1680183704513,"pid":597098,"hostname":"aissd","reqId":"req-4","msg":"Try get all data"}
+{"level":30,"time":1680183705295,"pid":597098,"hostname":"aissd","reqId":"req-4","msg":"Data send"}
+{"level":30,"time":1680183705313,"pid":597098,"hostname":"aissd","reqId":"req-4","res":{"statusCode":200},"responseTime":800.2266218662262,"msg":"request completed"}
+{"level":30,"time":1680183782519,"pid":597098,"hostname":"aissd","reqId":"req-5","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":61943},"msg":"incoming request"}
+{"level":30,"time":1680183782523,"pid":597098,"hostname":"aissd","reqId":"req-5","msg":"Try get all data"}
+{"level":30,"time":1680183783855,"pid":597098,"hostname":"aissd","reqId":"req-5","msg":"Data send"}
+{"level":30,"time":1680183783891,"pid":597098,"hostname":"aissd","reqId":"req-5","res":{"statusCode":200},"responseTime":1369.5628788471222,"msg":"request completed"}
