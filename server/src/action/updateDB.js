@@ -2,7 +2,8 @@ import {db} from "../database.js"
 
 const BODYKEYS = ['token', 'temperature', 'pression', 'pluie', 'vent', 'luminosite', 'humidite']
 
-export const postData = (req, res) => {
+export const postData = (req, res) => {    
+    req.log.info('Try to save new weather data')
     const data = req.body["parsed"]
 
     if (checkRequestBody(data)==false){
@@ -16,6 +17,7 @@ export const postData = (req, res) => {
 
     saveNewData(stationID['id'], data)
 
+    req.log.info('New weather data')
     return "data saved"
 }
 

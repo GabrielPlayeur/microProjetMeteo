@@ -9,10 +9,12 @@ const INDEX_TABLE = 6
 const getHtmlPromise = util.promisify(getHtml)
 export const showData = async (req, res) => {
     try {
+        req.log.info('Try get all data')
         const forecast = await getWeatherForecast(res)
         const data = db.prepare('SELECT name,date,temperature,pression,pluie,vent,luminosite,humidite FROM datameteo INNER JOIN stationmeteo on stationmeteo.id = datameteo.station_id ORDER BY datameteo.id DESC LIMIT 24').all()
         let dataFormat = formatDataMeteo(data)
-        let forecastFormat = formatDataForecast(forecast)
+        let forecastFormat = formatDataForecast(forecast)        
+        req.log.info('Data send')
         return res.view("./template/index.ejs", {
                 meteo:dataFormat,
                 previsions:forecastFormat
@@ -20,6 +22,7 @@ export const showData = async (req, res) => {
     } catch (error) {
         console.error(error)
         res.status(500).send('Erreur lors de la récupération des données')
+        req.log.error('Error in data scraping')
     }
 }
 

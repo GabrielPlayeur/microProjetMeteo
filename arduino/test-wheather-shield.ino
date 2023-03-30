@@ -121,7 +121,9 @@ float get_wind_speed()
     windClicks = 0; //Reset and start watching for new wind
     lastWindCheck = millis();
 
-    windSpeed *= 2.4; //4 * 1.492 = 5.968MPH
+    windSpeed *= 2.4;
+    
+     //4 * 1.492 = 5.968MPH
 
     /* Serial.println();
      Serial.print("Windspeed:");

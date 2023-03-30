@@ -5,7 +5,13 @@ import { showData } from "./action/showData.js"
 import { postData } from "./action/updateDB.js"
 import { getData } from "./action/getData.js"
 
-const app = fastify()
+const app = fastify({
+  logger: {
+    level: 'info',
+    file: './log/info.log'
+  }
+
+})
 
 app.register(fastifyView,{
     engine: {
@@ -36,7 +42,7 @@ app.get('/getData', getData)
 
 const start = async () => {
     try {
-        await app.listen({port: 3000})
+        await app.listen({port: 3000, host:"localhost"})
     } catch (error) {
         console.error(error)
         process.exit(1)
