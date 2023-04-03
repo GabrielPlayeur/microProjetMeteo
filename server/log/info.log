@@ -107,3 +107,277 @@
 {"level":30,"time":1680183782523,"pid":597098,"hostname":"aissd","reqId":"req-5","msg":"Try get all data"}
 {"level":30,"time":1680183783855,"pid":597098,"hostname":"aissd","reqId":"req-5","msg":"Data send"}
 {"level":30,"time":1680183783891,"pid":597098,"hostname":"aissd","reqId":"req-5","res":{"statusCode":200},"responseTime":1369.5628788471222,"msg":"request completed"}
+{"level":30,"time":1680188646679,"pid":598735,"hostname":"aissd","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":1680188651042,"pid":598735,"hostname":"aissd","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":62697},"msg":"incoming request"}
+{"level":30,"time":1680188651045,"pid":598735,"hostname":"aissd","reqId":"req-1","msg":"Try get all data"}
+{"level":30,"time":1680188652620,"pid":598735,"hostname":"aissd","reqId":"req-1","msg":"Data send"}
+{"level":30,"time":1680188652659,"pid":598735,"hostname":"aissd","reqId":"req-1","res":{"statusCode":200},"responseTime":1614.7916641235352,"msg":"request completed"}
+{"level":30,"time":1680188666259,"pid":598735,"hostname":"aissd","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":62697},"msg":"incoming request"}
+{"level":30,"time":1680188666259,"pid":598735,"hostname":"aissd","reqId":"req-2","msg":"Try get all data"}
+{"level":30,"time":1680188667260,"pid":598735,"hostname":"aissd","reqId":"req-2","msg":"Data send"}
+{"level":30,"time":1680188667278,"pid":598735,"hostname":"aissd","reqId":"req-2","res":{"statusCode":200},"responseTime":1018.799605846405,"msg":"request completed"}
+{"level":30,"time":1680188671030,"pid":598735,"hostname":"aissd","reqId":"req-3","req":{"method":"GET","url":"/getData","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":62697},"msg":"incoming request"}
+{"level":30,"time":1680188671031,"pid":598735,"hostname":"aissd","reqId":"req-3","msg":"Send all database weather info"}
+{"level":30,"time":1680188671033,"pid":598735,"hostname":"aissd","reqId":"req-3","res":{"statusCode":200},"responseTime":3.0362279415130615,"msg":"request completed"}
+{"level":30,"time":1680188675958,"pid":598735,"hostname":"aissd","reqId":"req-4","req":{"method":"GET","url":"/getDat","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":62697},"msg":"incoming request"}
+{"level":30,"time":1680188675958,"pid":598735,"hostname":"aissd","reqId":"req-4","msg":"Route GET:/getDat not found"}
+{"level":30,"time":1680188675960,"pid":598735,"hostname":"aissd","reqId":"req-4","res":{"statusCode":404},"responseTime":1.6972129344940186,"msg":"request completed"}
+{"level":30,"time":1680188683043,"pid":598735,"hostname":"aissd","reqId":"req-5","req":{"method":"GET","url":"/getData","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":62697},"msg":"incoming request"}
+{"level":30,"time":1680188683044,"pid":598735,"hostname":"aissd","reqId":"req-5","msg":"Send all database weather info"}
+{"level":30,"time":1680188683045,"pid":598735,"hostname":"aissd","reqId":"req-5","res":{"statusCode":200},"responseTime":1.6677978038787842,"msg":"request completed"}
+{"level":30,"time":1680188687657,"pid":598735,"hostname":"aissd","reqId":"req-6","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":62697},"msg":"incoming request"}
+{"level":30,"time":1680188687658,"pid":598735,"hostname":"aissd","reqId":"req-6","msg":"Try get all data"}
+{"level":30,"time":1680188688771,"pid":598735,"hostname":"aissd","reqId":"req-6","msg":"Data send"}
+{"level":30,"time":1680188688797,"pid":598735,"hostname":"aissd","reqId":"req-6","res":{"statusCode":200},"responseTime":1138.551605939865,"msg":"request completed"}
+{"level":30,"time":1680189194085,"pid":598735,"hostname":"aissd","reqId":"req-7","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":63041},"msg":"incoming request"}
+{"level":30,"time":1680189194085,"pid":598735,"hostname":"aissd","reqId":"req-7","msg":"Try get all data"}
+{"level":30,"time":1680189195047,"pid":598735,"hostname":"aissd","reqId":"req-7","msg":"Data send"}
+{"level":30,"time":1680189195063,"pid":598735,"hostname":"aissd","reqId":"req-7","res":{"statusCode":200},"responseTime":978.0292720794678,"msg":"request completed"}
+{"level":30,"time":1680190853733,"pid":598735,"hostname":"aissd","reqId":"req-8","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"163.172.58.84","remotePort":55958},"msg":"incoming request"}
+{"level":30,"time":1680190853733,"pid":598735,"hostname":"aissd","reqId":"req-8","msg":"Try get all data"}
+{"level":30,"time":1680190854507,"pid":598735,"hostname":"aissd","reqId":"req-8","msg":"Data send"}
+{"level":30,"time":1680190854530,"pid":598735,"hostname":"aissd","reqId":"req-8","res":{"statusCode":200},"responseTime":796.6455891132355,"msg":"request completed"}
+{"level":30,"time":1680190854717,"pid":598735,"hostname":"aissd","reqId":"req-9","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"163.172.58.84","remotePort":55958},"msg":"incoming request"}
+{"level":30,"time":1680190854718,"pid":598735,"hostname":"aissd","reqId":"req-9","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680190854721,"pid":598735,"hostname":"aissd","reqId":"req-9","res":{"statusCode":404},"responseTime":3.531996011734009,"msg":"request completed"}
+{"level":30,"time":1680191224556,"pid":598735,"hostname":"aissd","reqId":"req-a","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"77.131.35.13","remotePort":42472},"msg":"incoming request"}
+{"level":30,"time":1680191224557,"pid":598735,"hostname":"aissd","reqId":"req-a","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680191224559,"pid":598735,"hostname":"aissd","reqId":"req-a","res":{"statusCode":404},"responseTime":2.5638952255249023,"msg":"request completed"}
+{"level":30,"time":1680191227205,"pid":598735,"hostname":"aissd","reqId":"req-b","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"77.131.35.13","remotePort":42472},"msg":"incoming request"}
+{"level":30,"time":1680191227205,"pid":598735,"hostname":"aissd","reqId":"req-b","msg":"Try get all data"}
+{"level":30,"time":1680191228559,"pid":598735,"hostname":"aissd","reqId":"req-b","msg":"Data send"}
+{"level":30,"time":1680191228590,"pid":598735,"hostname":"aissd","reqId":"req-b","res":{"statusCode":200},"responseTime":1385.2774279117584,"msg":"request completed"}
+{"level":30,"time":1680193483335,"pid":598735,"hostname":"aissd","reqId":"req-c","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":45318},"msg":"incoming request"}
+{"level":30,"time":1680193483336,"pid":598735,"hostname":"aissd","reqId":"req-c","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680193483337,"pid":598735,"hostname":"aissd","reqId":"req-c","res":{"statusCode":404},"responseTime":1.5710721015930176,"msg":"request completed"}
+{"level":30,"time":1680197537534,"pid":598735,"hostname":"aissd","reqId":"req-d","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":49829},"msg":"incoming request"}
+{"level":30,"time":1680197537534,"pid":598735,"hostname":"aissd","reqId":"req-d","msg":"Try get all data"}
+{"level":30,"time":1680197538475,"pid":598735,"hostname":"aissd","reqId":"req-d","msg":"Data send"}
+{"level":30,"time":1680197538485,"pid":598735,"hostname":"aissd","reqId":"req-d","res":{"statusCode":200},"responseTime":951.0062260627747,"msg":"request completed"}
+{"level":30,"time":1680197538606,"pid":598735,"hostname":"aissd","reqId":"req-e","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":49829},"msg":"incoming request"}
+{"level":30,"time":1680197538606,"pid":598735,"hostname":"aissd","reqId":"req-e","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680197538607,"pid":598735,"hostname":"aissd","reqId":"req-e","res":{"statusCode":404},"responseTime":1.1393189430236816,"msg":"request completed"}
+{"level":30,"time":1680197540844,"pid":598735,"hostname":"aissd","reqId":"req-f","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":49829},"msg":"incoming request"}
+{"level":30,"time":1680197540844,"pid":598735,"hostname":"aissd","reqId":"req-f","msg":"Try get all data"}
+{"level":30,"time":1680197541557,"pid":598735,"hostname":"aissd","reqId":"req-f","msg":"Data send"}
+{"level":30,"time":1680197541636,"pid":598735,"hostname":"aissd","reqId":"req-f","res":{"statusCode":200},"responseTime":791.109806060791,"msg":"request completed"}
+{"level":30,"time":1680197543548,"pid":598735,"hostname":"aissd","reqId":"req-g","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":49831},"msg":"incoming request"}
+{"level":30,"time":1680197543549,"pid":598735,"hostname":"aissd","reqId":"req-g","msg":"Try get all data"}
+{"level":30,"time":1680197544192,"pid":598735,"hostname":"aissd","reqId":"req-g","msg":"Data send"}
+{"level":30,"time":1680197544200,"pid":598735,"hostname":"aissd","reqId":"req-g","res":{"statusCode":200},"responseTime":651.3531539440155,"msg":"request completed"}
+{"level":30,"time":1680203454644,"pid":598735,"hostname":"aissd","reqId":"req-h","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"198.235.24.180","remotePort":65298},"msg":"incoming request"}
+{"level":30,"time":1680203454645,"pid":598735,"hostname":"aissd","reqId":"req-h","msg":"Try get all data"}
+{"level":30,"time":1680203455745,"pid":598735,"hostname":"aissd","reqId":"req-h","msg":"Data send"}
+{"level":30,"time":1680203455767,"pid":598735,"hostname":"aissd","reqId":"req-h","res":{"statusCode":200},"responseTime":1122.2115030288696,"msg":"request completed"}
+{"level":30,"time":1680209370237,"pid":598735,"hostname":"aissd","reqId":"req-i","req":{"method":"GET","url":"/","hostname":"163-172-46-88.rev.poneytelecom.eu","remoteAddress":"205.210.31.153","remotePort":63940},"msg":"incoming request"}
+{"level":30,"time":1680209370237,"pid":598735,"hostname":"aissd","reqId":"req-i","msg":"Try get all data"}
+{"level":30,"time":1680209371140,"pid":598735,"hostname":"aissd","reqId":"req-i","msg":"Data send"}
+{"level":30,"time":1680209371152,"pid":598735,"hostname":"aissd","reqId":"req-i","res":{"statusCode":200},"responseTime":914.0795879364014,"msg":"request completed"}
+{"level":30,"time":1680210794407,"pid":598735,"hostname":"aissd","reqId":"req-j","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":57680},"msg":"incoming request"}
+{"level":30,"time":1680210794407,"pid":598735,"hostname":"aissd","reqId":"req-j","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680210794410,"pid":598735,"hostname":"aissd","reqId":"req-j","res":{"statusCode":404},"responseTime":2.531207799911499,"msg":"request completed"}
+{"level":30,"time":1680218745226,"pid":598735,"hostname":"aissd","reqId":"req-k","req":{"method":"GET","url":"/","remoteAddress":"205.210.31.36","remotePort":54422},"msg":"incoming request"}
+{"level":30,"time":1680218745226,"pid":598735,"hostname":"aissd","reqId":"req-k","msg":"Try get all data"}
+{"level":30,"time":1680218746126,"pid":598735,"hostname":"aissd","reqId":"req-k","msg":"Data send"}
+{"level":30,"time":1680218746136,"pid":598735,"hostname":"aissd","reqId":"req-k","res":{"statusCode":200},"responseTime":909.6200230121613,"msg":"request completed"}
+{"level":30,"time":1680227817257,"pid":598735,"hostname":"aissd","reqId":"req-l","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"198.199.81.20","remotePort":57632},"msg":"incoming request"}
+{"level":30,"time":1680227817258,"pid":598735,"hostname":"aissd","reqId":"req-l","msg":"Try get all data"}
+{"level":30,"time":1680227818622,"pid":598735,"hostname":"aissd","reqId":"req-l","msg":"Data send"}
+{"level":30,"time":1680227818649,"pid":598735,"hostname":"aissd","reqId":"req-l","res":{"statusCode":200},"responseTime":1391.6313390731812,"msg":"request completed"}
+{"level":30,"time":1680232589255,"pid":598735,"hostname":"aissd","reqId":"req-m","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"154.89.5.213","remotePort":45578},"msg":"incoming request"}
+{"level":30,"time":1680232589255,"pid":598735,"hostname":"aissd","reqId":"req-m","msg":"Try get all data"}
+{"level":30,"time":1680232590234,"pid":598735,"hostname":"aissd","reqId":"req-m","msg":"Data send"}
+{"level":30,"time":1680232590247,"pid":598735,"hostname":"aissd","reqId":"req-m","res":{"statusCode":200},"responseTime":991.4825201034546,"msg":"request completed"}
+{"level":30,"time":1680242163039,"pid":598735,"hostname":"aissd","reqId":"req-n","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":48394},"msg":"incoming request"}
+{"level":30,"time":1680242163040,"pid":598735,"hostname":"aissd","reqId":"req-n","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680242163042,"pid":598735,"hostname":"aissd","reqId":"req-n","res":{"statusCode":404},"responseTime":2.4706461429595947,"msg":"request completed"}
+{"level":30,"time":1680242163852,"pid":598735,"hostname":"aissd","reqId":"req-o","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":48394},"msg":"incoming request"}
+{"level":30,"time":1680242163852,"pid":598735,"hostname":"aissd","reqId":"req-o","msg":"Try get all data"}
+{"level":30,"time":1680242164653,"pid":598735,"hostname":"aissd","reqId":"req-o","msg":"Data send"}
+{"level":30,"time":1680242164702,"pid":598735,"hostname":"aissd","reqId":"req-o","res":{"statusCode":200},"responseTime":849.4115099906921,"msg":"request completed"}
+{"level":30,"time":1680242165805,"pid":598735,"hostname":"aissd","reqId":"req-p","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":48394},"msg":"incoming request"}
+{"level":30,"time":1680242165805,"pid":598735,"hostname":"aissd","reqId":"req-p","msg":"Try get all data"}
+{"level":30,"time":1680242166451,"pid":598735,"hostname":"aissd","reqId":"req-p","msg":"Data send"}
+{"level":30,"time":1680242166458,"pid":598735,"hostname":"aissd","reqId":"req-p","res":{"statusCode":200},"responseTime":652.6027212142944,"msg":"request completed"}
+{"level":30,"time":1680248230140,"pid":598735,"hostname":"aissd","reqId":"req-q","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":49652},"msg":"incoming request"}
+{"level":30,"time":1680248230141,"pid":598735,"hostname":"aissd","reqId":"req-q","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680248230144,"pid":598735,"hostname":"aissd","reqId":"req-q","res":{"statusCode":404},"responseTime":3.1002540588378906,"msg":"request completed"}
+{"level":30,"time":1680248231234,"pid":598735,"hostname":"aissd","reqId":"req-r","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":49652},"msg":"incoming request"}
+{"level":30,"time":1680248231235,"pid":598735,"hostname":"aissd","reqId":"req-r","msg":"Try get all data"}
+{"level":30,"time":1680248232338,"pid":598735,"hostname":"aissd","reqId":"req-r","msg":"Data send"}
+{"level":30,"time":1680248232361,"pid":598735,"hostname":"aissd","reqId":"req-r","res":{"statusCode":200},"responseTime":1125.8436529636383,"msg":"request completed"}
+{"level":30,"time":1680248375775,"pid":598735,"hostname":"aissd","reqId":"req-s","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":49764},"msg":"incoming request"}
+{"level":30,"time":1680248375775,"pid":598735,"hostname":"aissd","reqId":"req-s","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680248375776,"pid":598735,"hostname":"aissd","reqId":"req-s","res":{"statusCode":404},"responseTime":1.0540821552276611,"msg":"request completed"}
+{"level":30,"time":1680257852527,"pid":598735,"hostname":"aissd","reqId":"req-t","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":51568},"msg":"incoming request"}
+{"level":30,"time":1680257852528,"pid":598735,"hostname":"aissd","reqId":"req-t","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680257852528,"pid":598735,"hostname":"aissd","reqId":"req-t","res":{"statusCode":404},"responseTime":0.862725019454956,"msg":"request completed"}
+{"level":30,"time":1680257854337,"pid":598735,"hostname":"aissd","reqId":"req-u","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":51568},"msg":"incoming request"}
+{"level":30,"time":1680257854338,"pid":598735,"hostname":"aissd","reqId":"req-u","msg":"Try get all data"}
+{"level":30,"time":1680257855236,"pid":598735,"hostname":"aissd","reqId":"req-u","msg":"Data send"}
+{"level":30,"time":1680257855246,"pid":598735,"hostname":"aissd","reqId":"req-u","res":{"statusCode":200},"responseTime":908.0485420227051,"msg":"request completed"}
+{"level":30,"time":1680257856338,"pid":598735,"hostname":"aissd","reqId":"req-v","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":51568},"msg":"incoming request"}
+{"level":30,"time":1680257856338,"pid":598735,"hostname":"aissd","reqId":"req-v","msg":"Try get all data"}
+{"level":30,"time":1680257857050,"pid":598735,"hostname":"aissd","reqId":"req-v","msg":"Data send"}
+{"level":30,"time":1680257857063,"pid":598735,"hostname":"aissd","reqId":"req-v","res":{"statusCode":200},"responseTime":724.9936561584473,"msg":"request completed"}
+{"level":30,"time":1680257858089,"pid":598735,"hostname":"aissd","reqId":"req-w","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":51568},"msg":"incoming request"}
+{"level":30,"time":1680257858090,"pid":598735,"hostname":"aissd","reqId":"req-w","msg":"Try get all data"}
+{"level":30,"time":1680257858725,"pid":598735,"hostname":"aissd","reqId":"req-w","msg":"Data send"}
+{"level":30,"time":1680257858749,"pid":598735,"hostname":"aissd","reqId":"req-w","res":{"statusCode":200},"responseTime":659.296422958374,"msg":"request completed"}
+{"level":30,"time":1680257992751,"pid":598735,"hostname":"aissd","reqId":"req-x","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":51668},"msg":"incoming request"}
+{"level":30,"time":1680257992753,"pid":598735,"hostname":"aissd","reqId":"req-x","msg":"Try get all data"}
+{"level":30,"time":1680257994064,"pid":598735,"hostname":"aissd","reqId":"req-x","msg":"Data send"}
+{"level":30,"time":1680257994112,"pid":598735,"hostname":"aissd","reqId":"req-x","res":{"statusCode":200},"responseTime":1360.6452651023865,"msg":"request completed"}
+{"level":30,"time":1680263122272,"pid":598735,"hostname":"aissd","reqId":"req-y","req":{"method":"GET","url":"/ui/authentication","hostname":"163.172.46.88:3000","remoteAddress":"45.56.108.128","remotePort":44846},"msg":"incoming request"}
+{"level":30,"time":1680263122273,"pid":598735,"hostname":"aissd","reqId":"req-y","msg":"Route GET:/ui/authentication not found"}
+{"level":30,"time":1680263122277,"pid":598735,"hostname":"aissd","reqId":"req-y","res":{"statusCode":404},"responseTime":4.458180904388428,"msg":"request completed"}
+{"level":30,"time":1680265524088,"pid":598735,"hostname":"aissd","reqId":"req-z","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":52880},"msg":"incoming request"}
+{"level":30,"time":1680265524089,"pid":598735,"hostname":"aissd","reqId":"req-z","msg":"Try get all data"}
+{"level":30,"time":1680265525040,"pid":598735,"hostname":"aissd","reqId":"req-z","msg":"Data send"}
+{"level":30,"time":1680265525051,"pid":598735,"hostname":"aissd","reqId":"req-z","res":{"statusCode":200},"responseTime":962.3903229236603,"msg":"request completed"}
+{"level":30,"time":1680265525146,"pid":598735,"hostname":"aissd","reqId":"req-10","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":52880},"msg":"incoming request"}
+{"level":30,"time":1680265525146,"pid":598735,"hostname":"aissd","reqId":"req-10","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680265525148,"pid":598735,"hostname":"aissd","reqId":"req-10","res":{"statusCode":404},"responseTime":1.146777868270874,"msg":"request completed"}
+{"level":30,"time":1680267144524,"pid":598735,"hostname":"aissd","reqId":"req-11","req":{"method":"GET","url":"/favicon.ico","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":54788},"msg":"incoming request"}
+{"level":30,"time":1680267144525,"pid":598735,"hostname":"aissd","reqId":"req-11","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680267144526,"pid":598735,"hostname":"aissd","reqId":"req-11","res":{"statusCode":404},"responseTime":0.9637579917907715,"msg":"request completed"}
+{"level":30,"time":1680267144995,"pid":598735,"hostname":"aissd","reqId":"req-12","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":54788},"msg":"incoming request"}
+{"level":30,"time":1680267144996,"pid":598735,"hostname":"aissd","reqId":"req-12","msg":"Try get all data"}
+{"level":30,"time":1680267145928,"pid":598735,"hostname":"aissd","reqId":"req-12","msg":"Data send"}
+{"level":30,"time":1680267145940,"pid":598735,"hostname":"aissd","reqId":"req-12","res":{"statusCode":200},"responseTime":944.1883690357208,"msg":"request completed"}
+{"level":30,"time":1680267148820,"pid":598735,"hostname":"aissd","reqId":"req-13","req":{"method":"GET","url":"/","hostname":"aissd.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":54788},"msg":"incoming request"}
+{"level":30,"time":1680267148820,"pid":598735,"hostname":"aissd","reqId":"req-13","msg":"Try get all data"}
+{"level":30,"time":1680267149464,"pid":598735,"hostname":"aissd","reqId":"req-13","msg":"Data send"}
+{"level":30,"time":1680267149471,"pid":598735,"hostname":"aissd","reqId":"req-13","res":{"statusCode":200},"responseTime":650.6859741210938,"msg":"request completed"}
+{"level":30,"time":1680267157636,"pid":598735,"hostname":"aissd","reqId":"req-14","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":54806},"msg":"incoming request"}
+{"level":30,"time":1680267157636,"pid":598735,"hostname":"aissd","reqId":"req-14","msg":"Try get all data"}
+{"level":30,"time":1680267158236,"pid":598735,"hostname":"aissd","reqId":"req-14","msg":"Data send"}
+{"level":30,"time":1680267158262,"pid":598735,"hostname":"aissd","reqId":"req-14","res":{"statusCode":200},"responseTime":625.9695851802826,"msg":"request completed"}
+{"level":30,"time":1680267158420,"pid":598735,"hostname":"aissd","reqId":"req-15","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":54806},"msg":"incoming request"}
+{"level":30,"time":1680267158421,"pid":598735,"hostname":"aissd","reqId":"req-15","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680267158422,"pid":598735,"hostname":"aissd","reqId":"req-15","res":{"statusCode":404},"responseTime":1.3139188289642334,"msg":"request completed"}
+{"level":30,"time":1680267166995,"pid":598735,"hostname":"aissd","reqId":"req-16","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"92.88.171.193","remotePort":54806},"msg":"incoming request"}
+{"level":30,"time":1680267166995,"pid":598735,"hostname":"aissd","reqId":"req-16","msg":"Try get all data"}
+{"level":30,"time":1680267167560,"pid":598735,"hostname":"aissd","reqId":"req-16","msg":"Data send"}
+{"level":30,"time":1680267167601,"pid":598735,"hostname":"aissd","reqId":"req-16","res":{"statusCode":200},"responseTime":606.1537778377533,"msg":"request completed"}
+{"level":30,"time":1680274302118,"pid":598735,"hostname":"aissd","reqId":"req-17","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"206.189.140.212","remotePort":39768},"msg":"incoming request"}
+{"level":30,"time":1680274302119,"pid":598735,"hostname":"aissd","reqId":"req-17","msg":"Try get all data"}
+{"level":30,"time":1680274303237,"pid":598735,"hostname":"aissd","reqId":"req-17","msg":"Data send"}
+{"level":30,"time":1680274303257,"pid":598735,"hostname":"aissd","reqId":"req-17","res":{"statusCode":200},"responseTime":1138.0999310016632,"msg":"request completed"}
+{"level":30,"time":1680278304461,"pid":598735,"hostname":"aissd","reqId":"req-18","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":42019},"msg":"incoming request"}
+{"level":30,"time":1680278304461,"pid":598735,"hostname":"aissd","reqId":"req-18","msg":"Try get all data"}
+{"level":30,"time":1680278305386,"pid":598735,"hostname":"aissd","reqId":"req-18","msg":"Data send"}
+{"level":30,"time":1680278305398,"pid":598735,"hostname":"aissd","reqId":"req-18","res":{"statusCode":200},"responseTime":936.4702150821686,"msg":"request completed"}
+{"level":30,"time":1680278305471,"pid":598735,"hostname":"aissd","reqId":"req-19","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":42019},"msg":"incoming request"}
+{"level":30,"time":1680278305472,"pid":598735,"hostname":"aissd","reqId":"req-19","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680278305474,"pid":598735,"hostname":"aissd","reqId":"req-19","res":{"statusCode":404},"responseTime":2.4398601055145264,"msg":"request completed"}
+{"level":30,"time":1680288340493,"pid":598735,"hostname":"aissd","reqId":"req-1a","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"198.199.101.105","remotePort":44822},"msg":"incoming request"}
+{"level":30,"time":1680288340494,"pid":598735,"hostname":"aissd","reqId":"req-1a","msg":"Try get all data"}
+{"level":30,"time":1680288341319,"pid":598735,"hostname":"aissd","reqId":"req-1a","msg":"Data send"}
+{"level":30,"time":1680288341332,"pid":598735,"hostname":"aissd","reqId":"req-1a","res":{"statusCode":200},"responseTime":837.9552888870239,"msg":"request completed"}
+{"level":30,"time":1680291849080,"pid":598735,"hostname":"aissd","reqId":"req-1b","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"82.122.195.245","remotePort":36915},"msg":"incoming request"}
+{"level":30,"time":1680291849081,"pid":598735,"hostname":"aissd","reqId":"req-1b","msg":"Try get all data"}
+{"level":30,"time":1680291850219,"pid":598735,"hostname":"aissd","reqId":"req-1b","msg":"Data send"}
+{"level":30,"time":1680291850244,"pid":598735,"hostname":"aissd","reqId":"req-1b","res":{"statusCode":200},"responseTime":1162.6172020435333,"msg":"request completed"}
+{"level":30,"time":1680291850312,"pid":598735,"hostname":"aissd","reqId":"req-1c","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"82.122.195.245","remotePort":36915},"msg":"incoming request"}
+{"level":30,"time":1680291850313,"pid":598735,"hostname":"aissd","reqId":"req-1c","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680291850320,"pid":598735,"hostname":"aissd","reqId":"req-1c","res":{"statusCode":404},"responseTime":7.205795049667358,"msg":"request completed"}
+{"level":30,"time":1680292310176,"pid":598735,"hostname":"aissd","reqId":"req-1d","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"82.122.195.245","remotePort":36989},"msg":"incoming request"}
+{"level":30,"time":1680292310176,"pid":598735,"hostname":"aissd","reqId":"req-1d","msg":"Try get all data"}
+{"level":30,"time":1680292311095,"pid":598735,"hostname":"aissd","reqId":"req-1d","msg":"Data send"}
+{"level":30,"time":1680292311102,"pid":598735,"hostname":"aissd","reqId":"req-1d","res":{"statusCode":200},"responseTime":925.6327991485596,"msg":"request completed"}
+{"level":30,"time":1680296663120,"pid":598735,"hostname":"aissd","reqId":"req-1e","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"44.228.129.36","remotePort":41818},"msg":"incoming request"}
+{"level":30,"time":1680296663121,"pid":598735,"hostname":"aissd","reqId":"req-1e","msg":"Try get all data"}
+{"level":30,"time":1680296663896,"pid":598735,"hostname":"aissd","reqId":"req-1e","msg":"Data send"}
+{"level":30,"time":1680296663908,"pid":598735,"hostname":"aissd","reqId":"req-1e","res":{"statusCode":200},"responseTime":787.1763379573822,"msg":"request completed"}
+{"level":30,"time":1680303994629,"pid":598735,"hostname":"aissd","reqId":"req-1f","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"45.83.66.87","remotePort":55416},"msg":"incoming request"}
+{"level":30,"time":1680303994630,"pid":598735,"hostname":"aissd","reqId":"req-1f","msg":"Try get all data"}
+{"level":30,"time":1680303995734,"pid":598735,"hostname":"aissd","reqId":"req-1f","msg":"Data send"}
+{"level":30,"time":1680303995766,"pid":598735,"hostname":"aissd","reqId":"req-1f","res":{"statusCode":200},"responseTime":1137.1818540096283,"msg":"request completed"}
+{"level":30,"time":1680303995825,"pid":598735,"hostname":"aissd","reqId":"req-1g","req":{"method":"GET","url":"/favicon.ico","hostname":"163.172.46.88:3000","remoteAddress":"45.83.66.173","remotePort":55426},"msg":"incoming request"}
+{"level":30,"time":1680303995826,"pid":598735,"hostname":"aissd","reqId":"req-1g","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680303995830,"pid":598735,"hostname":"aissd","reqId":"req-1g","res":{"statusCode":404},"responseTime":3.9244680404663086,"msg":"request completed"}
+{"level":30,"time":1680345648889,"pid":598735,"hostname":"aissd","reqId":"req-1h","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"78.243.93.21","remotePort":42332},"msg":"incoming request"}
+{"level":30,"time":1680345648889,"pid":598735,"hostname":"aissd","reqId":"req-1h","msg":"Try get all data"}
+{"level":30,"time":1680345649839,"pid":598735,"hostname":"aissd","reqId":"req-1h","msg":"Data send"}
+{"level":30,"time":1680345649850,"pid":598735,"hostname":"aissd","reqId":"req-1h","res":{"statusCode":200},"responseTime":960.8064980506897,"msg":"request completed"}
+{"level":30,"time":1680350305644,"pid":598735,"hostname":"aissd","reqId":"req-1i","req":{"method":"GET","url":"/ui/authentication","hostname":"163.172.46.88:3000","remoteAddress":"45.56.108.128","remotePort":48964},"msg":"incoming request"}
+{"level":30,"time":1680350305645,"pid":598735,"hostname":"aissd","reqId":"req-1i","msg":"Route GET:/ui/authentication not found"}
+{"level":30,"time":1680350305646,"pid":598735,"hostname":"aissd","reqId":"req-1i","res":{"statusCode":404},"responseTime":1.078456163406372,"msg":"request completed"}
+{"level":30,"time":1680369721961,"pid":598735,"hostname":"aissd","reqId":"req-1j","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"43.156.25.237","remotePort":39524},"msg":"incoming request"}
+{"level":30,"time":1680369721961,"pid":598735,"hostname":"aissd","reqId":"req-1j","msg":"Try get all data"}
+{"level":30,"time":1680369722791,"pid":598735,"hostname":"aissd","reqId":"req-1j","msg":"Data send"}
+{"level":30,"time":1680369722802,"pid":598735,"hostname":"aissd","reqId":"req-1j","res":{"statusCode":200},"responseTime":840.7316448688507,"msg":"request completed"}
+{"level":30,"time":1680416636809,"pid":598735,"hostname":"aissd","reqId":"req-1k","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"167.172.56.2","remotePort":58962},"msg":"incoming request"}
+{"level":30,"time":1680416636810,"pid":598735,"hostname":"aissd","reqId":"req-1k","msg":"Try get all data"}
+{"level":30,"time":1680416638041,"pid":598735,"hostname":"aissd","reqId":"req-1k","msg":"Data send"}
+{"level":30,"time":1680416638102,"pid":598735,"hostname":"aissd","reqId":"req-1k","res":{"statusCode":200},"responseTime":1292.5460920333862,"msg":"request completed"}
+{"level":30,"time":1680443218873,"pid":598735,"hostname":"aissd","reqId":"req-1l","req":{"method":"GET","url":"/ui/authentication","hostname":"163.172.46.88:3000","remoteAddress":"45.56.108.128","remotePort":52282},"msg":"incoming request"}
+{"level":30,"time":1680443218873,"pid":598735,"hostname":"aissd","reqId":"req-1l","msg":"Route GET:/ui/authentication not found"}
+{"level":30,"time":1680443218878,"pid":598735,"hostname":"aissd","reqId":"req-1l","res":{"statusCode":404},"responseTime":4.233413934707642,"msg":"request completed"}
+{"level":30,"time":1680445213500,"pid":598735,"hostname":"aissd","reqId":"req-1m","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"82.122.195.245","remotePort":52250},"msg":"incoming request"}
+{"level":30,"time":1680445213500,"pid":598735,"hostname":"aissd","reqId":"req-1m","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680445213501,"pid":598735,"hostname":"aissd","reqId":"req-1m","res":{"statusCode":404},"responseTime":0.8511629104614258,"msg":"request completed"}
+{"level":30,"time":1680445214270,"pid":598735,"hostname":"aissd","reqId":"req-1n","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"82.122.195.245","remotePort":52250},"msg":"incoming request"}
+{"level":30,"time":1680445214271,"pid":598735,"hostname":"aissd","reqId":"req-1n","msg":"Try get all data"}
+{"level":30,"time":1680445215152,"pid":598735,"hostname":"aissd","reqId":"req-1n","msg":"Data send"}
+{"level":30,"time":1680445215161,"pid":598735,"hostname":"aissd","reqId":"req-1n","res":{"statusCode":200},"responseTime":890.2713749408722,"msg":"request completed"}
+{"level":30,"time":1680445672230,"pid":598735,"hostname":"aissd","reqId":"req-1o","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"82.122.195.245","remotePort":52448},"msg":"incoming request"}
+{"level":30,"time":1680445672230,"pid":598735,"hostname":"aissd","reqId":"req-1o","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680445672231,"pid":598735,"hostname":"aissd","reqId":"req-1o","res":{"statusCode":404},"responseTime":0.9025089740753174,"msg":"request completed"}
+{"level":30,"time":1680453582282,"pid":598735,"hostname":"aissd","reqId":"req-1p","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"185.180.143.146","remotePort":44072},"msg":"incoming request"}
+{"level":30,"time":1680453582282,"pid":598735,"hostname":"aissd","reqId":"req-1p","msg":"Try get all data"}
+{"level":30,"time":1680453583117,"pid":598735,"hostname":"aissd","reqId":"req-1p","msg":"Data send"}
+{"level":30,"time":1680453583129,"pid":598735,"hostname":"aissd","reqId":"req-1p","res":{"statusCode":200},"responseTime":846.4539618492126,"msg":"request completed"}
+{"level":30,"time":1680476200523,"pid":598735,"hostname":"aissd","reqId":"req-1q","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"198.199.97.219","remotePort":41512},"msg":"incoming request"}
+{"level":30,"time":1680476200524,"pid":598735,"hostname":"aissd","reqId":"req-1q","msg":"Try get all data"}
+{"level":30,"time":1680476201623,"pid":598735,"hostname":"aissd","reqId":"req-1q","msg":"Data send"}
+{"level":30,"time":1680476201650,"pid":598735,"hostname":"aissd","reqId":"req-1q","res":{"statusCode":200},"responseTime":1126.103285074234,"msg":"request completed"}
+{"level":30,"time":1680513274667,"pid":598735,"hostname":"aissd","reqId":"req-1r","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":49780},"msg":"incoming request"}
+{"level":30,"time":1680513274667,"pid":598735,"hostname":"aissd","reqId":"req-1r","msg":"Try get all data"}
+{"level":30,"time":1680513275574,"pid":598735,"hostname":"aissd","reqId":"req-1r","msg":"Data send"}
+{"level":30,"time":1680513275584,"pid":598735,"hostname":"aissd","reqId":"req-1r","res":{"statusCode":200},"responseTime":916.8477749824524,"msg":"request completed"}
+{"level":30,"time":1680513275879,"pid":598735,"hostname":"aissd","reqId":"req-1s","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"90.93.46.35","remotePort":49780},"msg":"incoming request"}
+{"level":30,"time":1680513275880,"pid":598735,"hostname":"aissd","reqId":"req-1s","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680513275882,"pid":598735,"hostname":"aissd","reqId":"req-1s","res":{"statusCode":404},"responseTime":2.7159008979797363,"msg":"request completed"}
+{"level":30,"time":1680516840120,"pid":598735,"hostname":"aissd","reqId":"req-1t","req":{"method":"GET","url":"/","hostname":"163.172.46.88:3000","remoteAddress":"174.138.61.44","remotePort":41702},"msg":"incoming request"}
+{"level":30,"time":1680516840120,"pid":598735,"hostname":"aissd","reqId":"req-1t","msg":"Try get all data"}
+{"level":30,"time":1680516840991,"pid":598735,"hostname":"aissd","reqId":"req-1t","msg":"Data send"}
+{"level":30,"time":1680516841001,"pid":598735,"hostname":"aissd","reqId":"req-1t","res":{"statusCode":200},"responseTime":880.3823289871216,"msg":"request completed"}
+{"level":30,"time":1680524973245,"pid":598735,"hostname":"aissd","reqId":"req-1u","req":{"method":"GET","url":"/ui/authentication","hostname":"163.172.46.88:3000","remoteAddress":"45.56.108.128","remotePort":57560},"msg":"incoming request"}
+{"level":30,"time":1680524973246,"pid":598735,"hostname":"aissd","reqId":"req-1u","msg":"Route GET:/ui/authentication not found"}
+{"level":30,"time":1680524973249,"pid":598735,"hostname":"aissd","reqId":"req-1u","res":{"statusCode":404},"responseTime":3.7444190979003906,"msg":"request completed"}
+{"level":30,"time":1680528310247,"pid":598735,"hostname":"aissd","reqId":"req-1v","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":50476},"msg":"incoming request"}
+{"level":30,"time":1680528310247,"pid":598735,"hostname":"aissd","reqId":"req-1v","msg":"Try get all data"}
+{"level":30,"time":1680528311392,"pid":598735,"hostname":"aissd","reqId":"req-1v","msg":"Data send"}
+{"level":30,"time":1680528311448,"pid":598735,"hostname":"aissd","reqId":"req-1v","res":{"statusCode":200},"responseTime":1200.2532110214233,"msg":"request completed"}
+{"level":30,"time":1680528311591,"pid":598735,"hostname":"aissd","reqId":"req-1w","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":50476},"msg":"incoming request"}
+{"level":30,"time":1680528311591,"pid":598735,"hostname":"aissd","reqId":"req-1w","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680528311593,"pid":598735,"hostname":"aissd","reqId":"req-1w","res":{"statusCode":404},"responseTime":1.5715184211730957,"msg":"request completed"}
+{"level":30,"time":1680528692094,"pid":598735,"hostname":"aissd","reqId":"req-1x","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":53892},"msg":"incoming request"}
+{"level":30,"time":1680528692094,"pid":598735,"hostname":"aissd","reqId":"req-1x","msg":"Try get all data"}
+{"level":30,"time":1680528692923,"pid":598735,"hostname":"aissd","reqId":"req-1x","msg":"Data send"}
+{"level":30,"time":1680528692932,"pid":598735,"hostname":"aissd","reqId":"req-1x","res":{"statusCode":200},"responseTime":838.2869129180908,"msg":"request completed"}
+{"level":30,"time":1680528723015,"pid":598735,"hostname":"aissd","reqId":"req-1y","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":53892},"msg":"incoming request"}
+{"level":30,"time":1680528723015,"pid":598735,"hostname":"aissd","reqId":"req-1y","msg":"Try get all data"}
+{"level":30,"time":1680528723797,"pid":598735,"hostname":"aissd","reqId":"req-1y","msg":"Data send"}
+{"level":30,"time":1680528723816,"pid":598735,"hostname":"aissd","reqId":"req-1y","res":{"statusCode":200},"responseTime":801.0207958221436,"msg":"request completed"}
+{"level":30,"time":1680528725650,"pid":598735,"hostname":"aissd","reqId":"req-1z","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":53892},"msg":"incoming request"}
+{"level":30,"time":1680528725650,"pid":598735,"hostname":"aissd","reqId":"req-1z","msg":"Try get all data"}
+{"level":30,"time":1680528726236,"pid":598735,"hostname":"aissd","reqId":"req-1z","msg":"Data send"}
+{"level":30,"time":1680528726243,"pid":598735,"hostname":"aissd","reqId":"req-1z","res":{"statusCode":200},"responseTime":592.1620059013367,"msg":"request completed"}
+{"level":30,"time":1680528760808,"pid":598735,"hostname":"aissd","reqId":"req-20","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":53892},"msg":"incoming request"}
+{"level":30,"time":1680528760808,"pid":598735,"hostname":"aissd","reqId":"req-20","msg":"Try get all data"}
+{"level":30,"time":1680528761879,"pid":598735,"hostname":"aissd","reqId":"req-20","msg":"Data send"}
+{"level":30,"time":1680528761905,"pid":598735,"hostname":"aissd","reqId":"req-20","res":{"statusCode":200},"responseTime":1096.3298330307007,"msg":"request completed"}
+{"level":30,"time":1680528786432,"pid":598735,"hostname":"aissd","reqId":"req-21","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":53892},"msg":"incoming request"}
+{"level":30,"time":1680528786432,"pid":598735,"hostname":"aissd","reqId":"req-21","msg":"Try get all data"}
+{"level":30,"time":1680528787340,"pid":598735,"hostname":"aissd","reqId":"req-21","msg":"Data send"}
+{"level":30,"time":1680528787349,"pid":598735,"hostname":"aissd","reqId":"req-21","res":{"statusCode":200},"responseTime":916.7133207321167,"msg":"request completed"}
+{"level":30,"time":1680531960663,"pid":598735,"hostname":"aissd","reqId":"req-22","req":{"method":"GET","url":"/","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":60779},"msg":"incoming request"}
+{"level":30,"time":1680531960663,"pid":598735,"hostname":"aissd","reqId":"req-22","msg":"Try get all data"}
+{"level":30,"time":1680531961548,"pid":598735,"hostname":"aissd","reqId":"req-22","msg":"Data send"}
+{"level":30,"time":1680531961557,"pid":598735,"hostname":"aissd","reqId":"req-22","res":{"statusCode":200},"responseTime":894.4140539169312,"msg":"request completed"}
+{"level":30,"time":1680531961680,"pid":598735,"hostname":"aissd","reqId":"req-23","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":60779},"msg":"incoming request"}
+{"level":30,"time":1680531961681,"pid":598735,"hostname":"aissd","reqId":"req-23","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1680531961683,"pid":598735,"hostname":"aissd","reqId":"req-23","res":{"statusCode":404},"responseTime":2.5495548248291016,"msg":"request completed"}
