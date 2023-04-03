@@ -381,3 +381,4 @@
 {"level":30,"time":1680531961680,"pid":598735,"hostname":"aissd","reqId":"req-23","req":{"method":"GET","url":"/favicon.ico","hostname":"meteo.d011.fr:3000","remoteAddress":"193.52.83.103","remotePort":60779},"msg":"incoming request"}
 {"level":30,"time":1680531961681,"pid":598735,"hostname":"aissd","reqId":"req-23","msg":"Route GET:/favicon.ico not found"}
 {"level":30,"time":1680531961683,"pid":598735,"hostname":"aissd","reqId":"req-23","res":{"statusCode":404},"responseTime":2.5495548248291016,"msg":"request completed"}
+{"level":30,"time":1680531961683,"pid":598735,"hostname":"aissd","reqId":"req-23","res":{"statusCode":404},"responseTime":2.5495548248291016,"msg":"request completed"}
