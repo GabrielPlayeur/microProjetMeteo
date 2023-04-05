@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-04 00:43:54",
+        "temperature": 5.4,
+        "pression": 1023.4,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 0,
+        "humidite": 48
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-04 01:43:10",
+        "temperature": 4.9,
+        "pression": 1023.5,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 0,
+        "humidite": 51
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 02:42:26",
+        "temperature": 4.4,
+        "pression": 1023.3,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 0,
+        "humidite": 54
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 03:41:42",
+        "temperature": 3.8,
+        "pression": 1023.1,
+        "pluie": 0,
+        "vent": 0.1,
+        "luminosite": 0,
+        "humidite": 54
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 04:40:58",
+        "temperature": 3.1,
+        "pression": 1022.9,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 0,
+        "humidite": 56
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 05:40:14",
+        "temperature": 2.6,
+        "pression": 1022.8,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 0,
+        "humidite": 57
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 06:39:30",
+        "temperature": 2.4,
+        "pression": 1022.6,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 0,
+        "humidite": 59
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 07:38:46",
+        "temperature": 2.2,
+        "pression": 1022.8,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 4253,
+        "humidite": 59
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 08:38:02",
+        "temperature": 9.3,
+        "pression": 1023,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 20930,
+        "humidite": 52
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 09:37:18",
+        "temperature": 17.9,
+        "pression": 1023,
+        "pluie": 0,
+        "vent": 0.1,
+        "luminosite": 21146,
+        "humidite": 41
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 10:36:35",
+        "temperature": 28.6,
+        "pression": 1023.1,
+        "pluie": 0,
+        "vent": 0,
+        "luminosite": 21132,
+        "humidite": 22
+    },
+    {
+        "name": "Nantes Popotager",
+        "date": "2023-04-05 11:35:51",
+        "temperature": 35.6,
+        "pression": 1023.3,
+        "pluie": 0,
+        "vent": 0.2,
+        "luminosite": 21141,
+        "humidite": 14
+    }
+]

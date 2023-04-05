@@ -1,0 +1,186 @@
+[
+    {
+        "date": "2023-04-05 01:00:00",
+        "temperature": 6.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 71.0,
+        "pression": 1025
+    },
+    {
+        "date": "2023-04-05 02:00:00",
+        "temperature": 5.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 72.0,
+        "pression": 1025
+    },
+    {
+        "date": "2023-04-05 03:00:00",
+        "temperature": 4.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 73.0,
+        "pression": 1025
+    },
+    {
+        "date": "2023-04-05 04:00:00",
+        "temperature": 4.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 73.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 05:00:00",
+        "temperature": 3.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 73.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 06:00:00",
+        "temperature": 2.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 74.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 07:00:00",
+        "temperature": 2.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 74.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 08:00:00",
+        "temperature": 2.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 75.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 09:00:00",
+        "temperature": 5.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 71.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 10:00:00",
+        "temperature": 9.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 60.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 11:00:00",
+        "temperature": 11.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 49.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 12:00:00",
+        "temperature": 12.0,
+        "vent": 0,
+        "pluie": 0,
+        "humidite": 47.0,
+        "pression": 1024
+    },
+    {
+        "date": "2023-04-05 13:00:00",
+        "temperature": 13.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 46.0,
+        "pression": 1023
+    },
+    {
+        "date": "2023-04-05 14:00:00",
+        "temperature": 14.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 46.0,
+        "pression": 1023
+    },
+    {
+        "date": "2023-04-05 15:00:00",
+        "temperature": 15.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 48.0,
+        "pression": 1022
+    },
+    {
+        "date": "2023-04-05 16:00:00",
+        "temperature": 15.0,
+        "vent": 5,
+        "pluie": 0,
+        "humidite": 48.0,
+        "pression": 1022
+    },
+    {
+        "date": "2023-04-05 17:00:00",
+        "temperature": 15.0,
+        "vent": 10,
+        "pluie": 0,
+        "humidite": 50.0,
+        "pression": 1021
+    },
+    {
+        "date": "2023-04-05 18:00:00",
+        "temperature": 15.0,
+        "vent": 10,
+        "pluie": 0,
+        "humidite": 56.00000000000001,
+        "pression": 1021
+    },
+    {
+        "date": "2023-04-05 19:00:00",
+        "temperature": 14.0,
+        "vent": 15,
+        "pluie": 0,
+        "humidite": 63.0,
+        "pression": 1021
+    },
+    {
+        "date": "2023-04-05 20:00:00",
+        "temperature": 12.0,
+        "vent": 15,
+        "pluie": 0,
+        "humidite": 72.0,
+        "pression": 1021
+    },
+    {
+        "date": "2023-04-05 21:00:00",
+        "temperature": 11.0,
+        "vent": 15,
+        "pluie": 0,
+        "humidite": 79.0,
+        "pression": 1021
+    },
+    {
+        "date": "2023-04-05 22:00:00",
+        "temperature": 10.0,
+        "vent": 10,
+        "pluie": 0,
+        "humidite": 82.0,
+        "pression": 1021
+    },
+    {
+        "date": "2023-04-05 23:00:00",
+        "temperature": 10.0,
+        "vent": 10,
+        "pluie": 0,
+        "humidite": 80.0,
+        "pression": 1022
+    }
+]
